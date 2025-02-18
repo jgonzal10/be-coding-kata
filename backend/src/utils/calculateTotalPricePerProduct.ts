@@ -19,6 +19,4 @@ if(product.offerQuantiy! && product.offerPrice!){// Checking if the product has 
 }else{
 return productPriceWithoutDiscount;
 }
-
-
 }
