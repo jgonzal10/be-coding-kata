@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getTotal } from "../controllers/getTotal.controller";
+import { getTotal } from "../controllers/total.controller";
 
 const router = Router();
 router.get("/getTotal", getTotal);

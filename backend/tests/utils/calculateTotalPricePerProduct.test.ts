@@ -1,7 +1,7 @@
 import { describe, expect } from "@jest/globals"
 import {calculateTotalPricePerProduct} from "../../src/utils/calculateTotalPricePerProduct";
 import { goldPeach, greenBanana, specialApple, yellowKiwi } from "./const";
-describe.skip('should calculate total per product amount', () =>{
+describe('should calculate total per product amount', () =>{
     describe('calculate apple prices',()=>{
         
         it('return total price for 2 Apples', () =>{

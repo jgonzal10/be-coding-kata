@@ -9,6 +9,14 @@ export const greenBanana = new Banana();
 export const yellowKiwi = new Kiwi();
 export const goldPeach = new Peach();
 
-
-export const productList:ProductQuantity[] = [{productId:1, productQuantity:2},{productId:2, productQuantity:2},{productId:1, productQuantity:2}]
+/**
+ * codes:
+ * Apple =1
+ * Banana =2
+ * Peach = 3
+ * Kiwi = 4
+ */
+export const productListMultipleApple:ProductQuantity[] = [{productId:1, productQuantity:2},{productId:2, productQuantity:2},{productId:1, productQuantity:2}]
+export const productListMultipleBanana:ProductQuantity[] = [{productId:2, productQuantity:2},{productId:2, productQuantity:3},{productId:1, productQuantity:2}]
+export const productListMultipleKiwi:ProductQuantity[] = [{productId:1, productQuantity:2},{productId:3, productQuantity:5},{productId:3, productQuantity:2}]
 
