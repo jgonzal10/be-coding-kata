@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "5b7506cb-582e-4003-b6d8-70d2146f6b47",
+		"name": "haiilo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9043118"
+	},
+	"item": [
+		{
+			"name": "apples1bananas3_160",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\":[{\"productId\":1,\"productQuantity\":1},{\"productId\":2,\"productQuantity\":3}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/getTotal",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getTotal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "noProducts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\":[]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/getTotal",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getTotal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "peach3bananas4_360",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\":[{\"productId\":3,\"productQuantity\":3},{\"productId\":2,\"productQuantity\":4}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/getTotal",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getTotal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apples2bananas2_175",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\":[{\"productId\":1,\"productQuantity\":2},{\"productId\":2,\"productQuantity\":3}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/getTotal",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getTotal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kiwis2_bananas2_140",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\":[{\"productId\":3,\"productQuantity\":2},{\"productId\":2,\"productQuantity\":2}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/getTotal",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getTotal"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
