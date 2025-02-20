@@ -13,8 +13,8 @@ export const goldPeach = new Peach();
  * codes:
  * Apple =1
  * Banana =2
- * Peach = 3
- * Kiwi = 4
+ * Kiwi = 3
+ * Peach = 4
  */
 export const productListMultipleApple: ProductQuantity[] = [
   { productId: 1, productQuantity: 2 },
