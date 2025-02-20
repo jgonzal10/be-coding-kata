@@ -28,6 +28,6 @@ export const productListMultipleBanana: ProductQuantity[] = [
 ];
 export const productListMultipleKiwi: ProductQuantity[] = [
   { productId: 1, productQuantity: 2 },
-  { productId: 3, productQuantity: 5 },
-  { productId: 3, productQuantity: 2 },
+  { productId: 4, productQuantity: 5 },
+  { productId: 4, productQuantity: 2 },
 ];

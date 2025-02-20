@@ -1,6 +1,6 @@
 import { Product } from "./product";
 export class Peach implements Product {
-  id: number = 3;
+  id: number = 4;
   name: string = "Peach";
   offerQuantiy?: number | undefined;
   offerPrice?: number | undefined;

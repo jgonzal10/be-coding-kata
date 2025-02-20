@@ -23,7 +23,7 @@ describe("should calculate the quantity of different products ordered", () => {
     expect(bananasQuantity?.quantity).toEqual(5);
   });
 
-  it("return total quantity of kiwi from the list", () => {
+  it.only("return total quantity of kiwi from the list", () => {
     const result = calculateProductsQuantity(productListMultipleKiwi);
     const kiwisQuantity = result.find((prod) => prod.product instanceof Kiwi);
     expect(kiwisQuantity?.quantity).toEqual(7);

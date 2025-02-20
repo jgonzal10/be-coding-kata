@@ -1,6 +1,6 @@
 import { Product } from "./product";
 export class Kiwi implements Product {
-  id: number = 4;
+  id: number = 3;
   name: string = "Kiwi";
   offerQuantiy?: number | undefined;
   offerPrice?: number | undefined;

@@ -33,14 +33,13 @@ export const calculateProductsQuantity = (productList: ProductQuantity[]) => {
         break;
       case 3:
         result.push({
-          product: new Kiwi(),
+          product: new Peach(),
           quantity: productQuantity.get(product),
         });
-
         break;
       case 4:
         result.push({
-          product: new Peach(),
+          product: new Kiwi(),
           quantity: productQuantity.get(product),
         });
         break;
