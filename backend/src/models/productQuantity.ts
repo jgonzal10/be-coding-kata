@@ -1,4 +1,4 @@
-export interface ProductQuantity{
-    productId:number;
-    productQuantity:number;
+export interface ProductQuantity {
+  productId: number;
+  productQuantity: number;
 }
