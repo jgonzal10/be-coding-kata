@@ -17,9 +17,7 @@ export const calculateTotalPricePerProduct = (
       if (productToDiscount < 1) {
         return productPriceWithoutDiscount;
       } else {
-        return (
-          Math.trunc(productToDiscount) * product.offerPrice + product.price
-        );
+        return Math.trunc(productToDiscount) * product.offerPrice + product.price
       }
     }
   } else {

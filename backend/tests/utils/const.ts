@@ -31,3 +31,4 @@ export const productListMultipleKiwi: ProductQuantity[] = [
   { productId: 4, productQuantity: 5 },
   { productId: 4, productQuantity: 2 },
 ];
+

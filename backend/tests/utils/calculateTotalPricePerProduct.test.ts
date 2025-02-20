@@ -20,6 +20,10 @@ describe("should calculate total per product amount", () => {
     it("return total price for 3 Bananas, they should have discount ", () => {
       expect(calculateTotalPricePerProduct(3, greenBanana)).toEqual(130);
     });
+
+    it.only("return total price for 4 Bananas, they should have discount ", () => {
+      expect(calculateTotalPricePerProduct(4, greenBanana)).toEqual(180);
+    });
   });
 
   describe("calculate peach prices", () => {
